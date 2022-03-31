@@ -1,0 +1,102 @@
+
+
+<div class="wrapper">
+    <div class="page-header page-header-xs" data-parallax="true" style="background: transparent">
+        <!--<div class="filter"></div>    -->    
+    </div>
+    <div class="container text-center">            
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+                <h2 class="title">Conecta con Qbitss</h2>
+                <p class="description">Permitenos ayudarte con el ecosistema tecnologico empresarial, deja que nuestro equipo de expertos te ayude a crear una solución integral a la medida.</p>
+            </div>
+        </div>       
+        <div class="row justify-content-md-center sharing-area text-center pt-5 pb-5">           
+           <!-- <div class="text-center col-md-12 col-lg-8">
+                <a href="#" class="btn btn-twitter-bg twitter-sharrre btn-round" rel="tooltip" title="Tweet!">
+                    <i class="fa fa-twitter"></i> Twitter
+                </a>
+                <a href="#" class="btn btn-facebook-bg facebook-sharrre btn-round" rel="tooltip" title="Danos Like!">
+                    <i class="fa fa-facebook-square"></i> Facebook
+                </a>
+                <a href="#" class="btn btn-linkedin-bg btn-linkedin sharrre btn-round" rel="tooltip" title="Buscanos Linkedin">
+                    <i class="fa fa-linkedin"></i> Linkedin
+                </a>
+            </div>-->
+        </div>
+    </div>
+    <div class="section landing-section mt-auto" >
+        <div class="container" style="background-image: url('assets/img/mapa.png');">
+            <div class="row">
+                <div class="col-md-6 mr-auto ml-auto">
+                    <div class="card card-register">
+                        <h5 class=" pb-5">Nuestros medios de contacto</h5>
+                        <table class="table text-purple">                           
+                            <tbody>
+                              <tr>
+                                <th scope="row"><img src="../../../assets/img/icons/Grupo 341.png" style="width: 30px; height: 30px;"></th>
+                                <td>551423698</td>                           
+                                
+                              </tr>
+                              <tr>
+                                <th scope="row"><img src="../../../assets/img/icons/Grupo 342.png" style="width: 30px; height: 30px;"></th>
+                                <td>CDMX</td>
+                                
+                                
+                              </tr>
+                              <tr>
+                                <th scope="row"><img src="../../../assets/img/icons/Grupo 343.png" style="width: 30px; height: 30px;"></th>
+                                <td>info@qbitss.com</td>
+                                
+                                
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+                <div class="col-md-6 mr-auto ml-auto">
+                    <h2 class="text-center">Contacto</h2>
+                    <form class="contact-form" (submit)="sendEmail($event)">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Nombre</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text"><i class="nc-icon nc-single-02"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Nombre"  name="user_name" (focus)="focus=true" (blur)="focus=false" >
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label>Correo electronico</label>
+                                <div class="input-group" >
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text">  <i class="nc-icon nc-email-85"></i></span>
+                                    </div>
+                                    <input type="email" name="user_email" class="form-control" placeholder="Email" (focus)="focus1=true" (blur)="focus1=false" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>Me interesa:</label>
+                                <select class="form-control" id="exampleFormControlSelect1" name="select">
+                                    <option>Desarrollo de Software </option>
+                                    <option>Centro de datos</option>
+                                    <option>Seguridad Informática</option>
+                                  </select>
+                            </div>
+                        </div>
+                        <label>Para asistirte mejor, describe cómo podemos ayudarte:</label>
+                        <textarea class="form-control" name="message" rows="4" placeholder="Cuéntenos cómo podemos ayudarte"></textarea>
+                        <div class="row">
+                            <div class="col-md-4 mr-auto ml-auto">
+                                <input class="btn btn-cotton-candy btn-lg" type="submit" value="Enviar">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,67 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
+    <div class="container">
+        <div class="navbar-translate">            
+            <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse " id="navbarToggler" *ngIf="!isContact()">
+            <ul class="navbar-nav ml-auto">             
+
+                <li class="nav-item" >
+                    <a [routerLink]="['/software']" class="nav-link">Software</a>
+                </li>
+                <li class="nav-item">
+                    <a [routerLink]="['/datacenter']" class="nav-link">Centro de datos</a>
+                </li>
+                <li class="nav-item" >
+                    <a [routerLink]="['/security']" class="nav-link">Seguridad</a>
+                </li>
+                <li>
+                    <a class="navbar-brand qbitss-logo" [routerLink]="['/home']" ><img src="../../../assets/img/logo_digital.png" style="width: 100px; height: 20px;"></a>
+                </li>
+                <li class="nav-item">
+                    <a [routerLink]="['/contact']" class="nav-link">Contacto</a>
+                </li>
+                <li class="nav-item" >
+                    <a [routerLink]="['/aboutUs']" class="nav-link">Nosotros</a>
+                </li>
+                <li class="nav-item" >
+                    <a  class="nav-link" ><i class="nc-icon nc-zoom-split"></i> </a>
+                </li>
+               
+            </ul>
+        </div>
+        <div class="navbar-collapse " id="navbarToggler" *ngIf="isContact()" >
+            <ul class="navbar-nav ml-auto">             
+
+                <li class="nav-item " >
+                    <a [routerLink]="['/software']" class="nav-link text-muted">Software</a>
+                </li>
+                <li class="nav-item">
+                    <a [routerLink]="['/datacenter']" class="nav-link text-muted">Centro de datos</a>
+                </li>
+                <li class="nav-item" >
+                    <a [routerLink]="['/security']" class="nav-link text-muted">Seguridad</a>
+                </li>
+                <li>
+                    <a class="navbar-brand qbitss-logo" [routerLink]="['/home']" ><img src="../../../assets/img/logo_digital.png" style="width: 100px; height: 20px;"></a>
+                </li>
+                <li class="nav-item">
+                    <a [routerLink]="['/contact']" class="nav-link text-muted">Contacto</a>
+                </li>
+                <li class="nav-item" >
+                    <a [routerLink]="['/aboutUs']" class="nav-link text-muted">Nosotros</a>
+                </li>
+                <!--buscador sin desarrollo porque no hay mucho que buscar XD-->
+                <li class="nav-item" >
+                    <a  class="nav-link text-muted" ><i class="nc-icon nc-zoom-split"></i> </a>
+                </li>
+               
+            </ul>
+        </div>
+
+    </div>
+</nav>
