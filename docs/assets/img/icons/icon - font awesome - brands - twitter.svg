@@ -1,0 +1,9 @@
+<svg id="icon_font_awesome_brands_twitter" data-name="icon / font awesome / brands / twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.625" height="20" viewBox="0 0 24.625 20">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#361591"/>
+      <stop offset="1" stop-color="#0a0a13"/>
+    </linearGradient>
+  </defs>
+  <path id="twitter" d="M22.094,4.984c.016.219.016.438.016.656A14.261,14.261,0,0,1,7.75,20,14.262,14.262,0,0,1,0,17.734a10.44,10.44,0,0,0,1.219.062,10.107,10.107,0,0,0,6.266-2.156,5.056,5.056,0,0,1-4.719-3.5,6.365,6.365,0,0,0,.953.078,5.338,5.338,0,0,0,1.328-.172A5.048,5.048,0,0,1,1,7.094V7.031a5.083,5.083,0,0,0,2.281.641A5.054,5.054,0,0,1,1.719.922,14.346,14.346,0,0,0,12.125,6.2,5.7,5.7,0,0,1,12,5.047a5.052,5.052,0,0,1,8.734-3.453,9.936,9.936,0,0,0,3.2-1.219,5.033,5.033,0,0,1-2.219,2.781,10.118,10.118,0,0,0,2.906-.781A10.849,10.849,0,0,1,22.094,4.984Z" fill="url(#linear-gradient)"/>
+</svg>
