@@ -1,1 +1,5 @@
+##Crea servicio de desarrollo
+ng serve --open 
+ 
+ ## Despliega código 
 ng build --output-path docs --base-href /qbitss-homepage-test/

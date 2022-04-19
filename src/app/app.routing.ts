@@ -9,6 +9,7 @@ import { SoftwareComponent } from './sections/software/software.component';
 import { DataCenterComponent } from './sections/data-center/data-center.component';
 import { AboutUsComponent } from './sections/about-us/about-us.component';
 import { ContactComponent } from './sections/contact/contact.component';
+import { PrivacyPolicyComponent } from './sections/privacy-policy/privacy-policy.component';
 import { PageNotFoundComponent} from './sections/page-not-found/page-not-found.component';
 
 
@@ -20,7 +21,8 @@ const routes: Routes =[
     { path: 'software',      component: SoftwareComponent },
     { path: 'contact',       component: ContactComponent },
     { path: 'datacenter',    component:  DataCenterComponent },
-    { path: 'aboutUs',       component: AboutUsComponent }
+    { path: 'aboutUs',       component: AboutUsComponent },
+    { path: 'privacy',       component: PrivacyPolicyComponent },
 ];
 
 @NgModule({

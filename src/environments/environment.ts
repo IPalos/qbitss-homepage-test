@@ -4,5 +4,8 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  emailjs_email_service: 'service_604an3s',
+  emailjs_email_template : 'template_1awxbdn',
+  emailjs_user_public_key:'jyVm1-SRAXu_Uczxp'
 };
