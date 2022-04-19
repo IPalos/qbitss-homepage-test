@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
 import * as alertify from 'alertify.js';
 import { FormGroup, NgForm} from '@angular/forms';
+import { environment } from 'environments/environment';
 
 @Component({
     selector: 'app-contact',
@@ -19,9 +20,14 @@ export class ContactComponent implements OnInit {
     public sendEmail(e: Event) {
         
         e.preventDefault();
-        emailjs.sendForm('service_qbitss', 'template_ubhxla4', e.target as HTMLFormElement, 'user_g9d2UU94BIwtkSWPM8r7C')
+        emailjs.sendForm(
+            environment.emailjs_email_service, 
+            environment.emailjs_email_template, 
+            e.target as HTMLFormElement, 
+            environment.emailjs_user_public_key)
+            
           .then((result: EmailJSResponseStatus) => {
-              
+              console.log(e.target as HTMLFormElement)
               alertify.alert('Envio Exitoso', 'Gracias por contactarnos!', function(){  
               });
                        
