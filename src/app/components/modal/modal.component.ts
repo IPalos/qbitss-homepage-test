@@ -10,7 +10,7 @@ import {NgbModal, NgbActiveModal} from '@ng-bootstrap/ng-bootstrap';
         <span aria-hidden="true">&times;</span>
         </button>
     </div>
-    <div class="modal-body"> Muy lejos, tras las montañas de la palabra, lejos de los países Vokalia y Consonantia, viven los textos ciegos. Separados, viven en Bookmarksgrove, justo en la costa de la Semántica, un gran océano lingüístico. Un pequeño río llamado Duden fluye junto a su lugar y lo abastece de la regelialia necesaria. Es un país paradisíaco, en el que las partes tostadas de las frases vuelan hasta la boca. Incluso el todopoderoso Pointing no tiene ningún control sobre los textos ciegos es una vida casi no ortográfica Un día, sin embargo, una pequeña línea de texto ciego con el nombre de Lorem Ipsum decidió partir hacia el lejano Mundo de la Gramática.
+    <div class="modal-body"> Para Qbitss S.A. DE C.V., (en lo sucesivo “Qbitss”) empresa de nacionalidad mexicana constituida conforme a las leyes de los Estados Unidos Mexicanos, el tratamiento legítimo, controlado e informado de sus datos personales es de vital importancia para alcanzar los objetivos como empresa a través de todas las áreas de la misma, reiterando nuestro compromiso y respeto con el derecho a la privacidad y a la autodeterminación informativa de las personas, atendiendo a los principios de licitud, consentimiento, calidad, información, finalidad, lealtad, proporcionalidad y responsabilidad.
     </div>
     <div class="modal-footer">
         <div class="left-side">
