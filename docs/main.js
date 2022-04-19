@@ -219,17 +219,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _home_ignacio_Documents_qbitss_homepage_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 8047);
 /* harmony import */ var _home_ignacio_Documents_qbitss_homepage_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 8069);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/core */ 3184);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/common */ 6362);
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/platform-browser */ 318);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/router */ 2816);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/core */ 3184);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/common */ 6362);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/platform-browser */ 318);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/router */ 2816);
 /* harmony import */ var _components_components_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/components.component */ 782);
 /* harmony import */ var _sections_security_security_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sections/security/security.component */ 7967);
 /* harmony import */ var _sections_software_software_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sections/software/software.component */ 848);
 /* harmony import */ var _sections_data_center_data_center_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./sections/data-center/data-center.component */ 7571);
 /* harmony import */ var _sections_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./sections/about-us/about-us.component */ 4349);
 /* harmony import */ var _sections_contact_contact_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./sections/contact/contact.component */ 350);
-/* harmony import */ var _sections_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sections/page-not-found/page-not-found.component */ 556);
+/* harmony import */ var _sections_privacy_policy_privacy_policy_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./sections/privacy-policy/privacy-policy.component */ 70);
+/* harmony import */ var _sections_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./sections/page-not-found/page-not-found.component */ 556);
 
 
 
@@ -254,13 +255,14 @@ var __decorate = undefined && undefined.__decorate || function (decorators, targ
 
 
 
+
 var routes = [{
   path: '',
   redirectTo: 'home',
   pathMatch: 'full'
 }, {
   path: '#/**',
-  component: _sections_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_8__.PageNotFoundComponent
+  component: _sections_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_9__.PageNotFoundComponent
 }, {
   path: 'home',
   component: _components_components_component__WEBPACK_IMPORTED_MODULE_2__.ComponentsComponent
@@ -279,14 +281,17 @@ var routes = [{
 }, {
   path: 'aboutUs',
   component: _sections_about_us_about_us_component__WEBPACK_IMPORTED_MODULE_6__.AboutUsComponent
+}, {
+  path: 'privacy',
+  component: _sections_privacy_policy_privacy_policy_component__WEBPACK_IMPORTED_MODULE_8__.PrivacyPolicyComponent
 }];
 
 var AppRoutingModule = /*#__PURE__*/(0,_home_ignacio_Documents_qbitss_homepage_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function AppRoutingModule() {
   (0,_home_ignacio_Documents_qbitss_homepage_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_1__["default"])(this, AppRoutingModule);
 });
 
-AppRoutingModule = __decorate([(0,_angular_core__WEBPACK_IMPORTED_MODULE_9__.NgModule)({
-  imports: [_angular_common__WEBPACK_IMPORTED_MODULE_10__.CommonModule, _angular_platform_browser__WEBPACK_IMPORTED_MODULE_11__.BrowserModule, _angular_router__WEBPACK_IMPORTED_MODULE_12__.RouterModule.forRoot(routes, {
+AppRoutingModule = __decorate([(0,_angular_core__WEBPACK_IMPORTED_MODULE_10__.NgModule)({
+  imports: [_angular_common__WEBPACK_IMPORTED_MODULE_11__.CommonModule, _angular_platform_browser__WEBPACK_IMPORTED_MODULE_12__.BrowserModule, _angular_router__WEBPACK_IMPORTED_MODULE_13__.RouterModule.forRoot(routes, {
     useHash: true
   })],
   exports: []
@@ -497,7 +502,7 @@ NgbdModalContent.propDecorators = {
 };
 NgbdModalContent = __decorate([(0,_angular_core__WEBPACK_IMPORTED_MODULE_4__.Component)({
   selector: 'app-modal-content',
-  template: "\n    <div class=\"modal-header\">\n        <h5 class=\"modal-title text-center\">Aviso de Privacidad</h5>\n        <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"activeModal.dismiss('Cross click')\">\n        <span aria-hidden=\"true\">&times;</span>\n        </button>\n    </div>\n    <div class=\"modal-body\"> Muy lejos, tras las monta\xF1as de la palabra, lejos de los pa\xEDses Vokalia y Consonantia, viven los textos ciegos. Separados, viven en Bookmarksgrove, justo en la costa de la Sem\xE1ntica, un gran oc\xE9ano ling\xFC\xEDstico. Un peque\xF1o r\xEDo llamado Duden fluye junto a su lugar y lo abastece de la regelialia necesaria. Es un pa\xEDs paradis\xEDaco, en el que las partes tostadas de las frases vuelan hasta la boca. Incluso el todopoderoso Pointing no tiene ning\xFAn control sobre los textos ciegos es una vida casi no ortogr\xE1fica Un d\xEDa, sin embargo, una peque\xF1a l\xEDnea de texto ciego con el nombre de Lorem Ipsum decidi\xF3 partir hacia el lejano Mundo de la Gram\xE1tica.\n    </div>\n    <div class=\"modal-footer\">\n        <div class=\"left-side\">\n            <button type=\"button\" class=\"btn btn-default btn-link\" (click)=\"activeModal.close('Close click')\">Aceptar</button>\n        </div>\n        <div class=\"divider\"></div>\n        <div class=\"right-side\">\n            <!--<button type=\"button\" class=\"btn btn-danger btn-link\" (click)=\"activeModal.close('Close click')\">DELETE</button>-->\n        </div>\n    </div>\n    "
+  template: "\n    <div class=\"modal-header\">\n        <h5 class=\"modal-title text-center\">Aviso de Privacidad</h5>\n        <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"activeModal.dismiss('Cross click')\">\n        <span aria-hidden=\"true\">&times;</span>\n        </button>\n    </div>\n    <div class=\"modal-body\"> Para Qbitss S.A. DE C.V., (en lo sucesivo \u201CQbitss\u201D) empresa de nacionalidad mexicana constituida conforme a las leyes de los Estados Unidos Mexicanos, el tratamiento leg\xEDtimo, controlado e informado de sus datos personales es de vital importancia para alcanzar los objetivos como empresa a trav\xE9s de todas las \xE1reas de la misma, reiterando nuestro compromiso y respeto con el derecho a la privacidad y a la autodeterminaci\xF3n informativa de las personas, atendiendo a los principios de licitud, consentimiento, calidad, informaci\xF3n, finalidad, lealtad, proporcionalidad y responsabilidad.\n    </div>\n    <div class=\"modal-footer\">\n        <div class=\"left-side\">\n            <button type=\"button\" class=\"btn btn-default btn-link\" (click)=\"activeModal.close('Close click')\">Aceptar</button>\n        </div>\n        <div class=\"divider\"></div>\n        <div class=\"right-side\">\n            <!--<button type=\"button\" class=\"btn btn-danger btn-link\" (click)=\"activeModal.close('Close click')\">DELETE</button>-->\n        </div>\n    </div>\n    "
 })], NgbdModalContent);
 
 
@@ -605,10 +610,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home_ignacio_Documents_qbitss_homepage_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 8047);
 /* harmony import */ var _contact_component_html_ngResource__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact.component.html?ngResource */ 7419);
 /* harmony import */ var _contact_component_scss_ngResource__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact.component.scss?ngResource */ 3773);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 3184);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/core */ 3184);
 /* harmony import */ var emailjs_com__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! emailjs-com */ 6309);
 /* harmony import */ var alertify_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! alertify.js */ 4428);
 /* harmony import */ var alertify_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(alertify_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var environments_environment__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! environments/environment */ 2340);
 
 
 
@@ -621,6 +627,7 @@ var __decorate = undefined && undefined.__decorate || function (decorators, targ
   }
   return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -642,7 +649,8 @@ var ContactComponent = /*#__PURE__*/function () {
     key: "sendEmail",
     value: function sendEmail(e) {
       e.preventDefault();
-      emailjs_com__WEBPACK_IMPORTED_MODULE_4__["default"].sendForm('service_qbitss', 'template_ubhxla4', e.target, 'user_g9d2UU94BIwtkSWPM8r7C').then(function (result) {
+      emailjs_com__WEBPACK_IMPORTED_MODULE_4__["default"].sendForm(environments_environment__WEBPACK_IMPORTED_MODULE_6__.environment.emailjs_email_service, environments_environment__WEBPACK_IMPORTED_MODULE_6__.environment.emailjs_email_template, e.target, environments_environment__WEBPACK_IMPORTED_MODULE_6__.environment.emailjs_user_public_key).then(function (result) {
+        console.log(e.target);
         alertify_js__WEBPACK_IMPORTED_MODULE_5__.alert('Envio Exitoso', 'Gracias por contactarnos!', function () {});
       }, function (error) {
         console.log(error.text);
@@ -659,7 +667,7 @@ ContactComponent.ctorParameters = function () {
   return [];
 };
 
-ContactComponent = __decorate([(0,_angular_core__WEBPACK_IMPORTED_MODULE_6__.Component)({
+ContactComponent = __decorate([(0,_angular_core__WEBPACK_IMPORTED_MODULE_7__.Component)({
   selector: 'app-contact',
   template: _contact_component_html_ngResource__WEBPACK_IMPORTED_MODULE_2__,
   styles: [_contact_component_scss_ngResource__WEBPACK_IMPORTED_MODULE_3__]
@@ -780,6 +788,64 @@ PageNotFoundComponent = __decorate([(0,_angular_core__WEBPACK_IMPORTED_MODULE_4_
   template: _page_not_found_component_html_ngResource__WEBPACK_IMPORTED_MODULE_2__,
   styles: [_page_not_found_component_scss_ngResource__WEBPACK_IMPORTED_MODULE_3__]
 })], PageNotFoundComponent);
+
+
+/***/ }),
+
+/***/ 70:
+/*!*********************************************************************!*\
+  !*** ./src/app/sections/privacy-policy/privacy-policy.component.ts ***!
+  \*********************************************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "PrivacyPolicyComponent": function() { return /* binding */ PrivacyPolicyComponent; }
+/* harmony export */ });
+/* harmony import */ var _home_ignacio_Documents_qbitss_homepage_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ 8069);
+/* harmony import */ var _home_ignacio_Documents_qbitss_homepage_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ 8047);
+/* harmony import */ var _privacy_policy_component_html_ngResource__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./privacy-policy.component.html?ngResource */ 5978);
+/* harmony import */ var _privacy_policy_component_scss_ngResource__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./privacy-policy.component.scss?ngResource */ 2670);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 3184);
+
+
+
+var __decorate = undefined && undefined.__decorate || function (decorators, target, key, desc) {
+  var c = arguments.length,
+      r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
+      d;
+  if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) {
+    if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+  }
+  return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+var PrivacyPolicyComponent = /*#__PURE__*/function () {
+  function PrivacyPolicyComponent() {
+    (0,_home_ignacio_Documents_qbitss_homepage_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_0__["default"])(this, PrivacyPolicyComponent);
+  }
+
+  (0,_home_ignacio_Documents_qbitss_homepage_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_1__["default"])(PrivacyPolicyComponent, [{
+    key: "ngOnInit",
+    value: function ngOnInit() {}
+  }]);
+
+  return PrivacyPolicyComponent;
+}();
+
+PrivacyPolicyComponent.ctorParameters = function () {
+  return [];
+};
+
+PrivacyPolicyComponent = __decorate([(0,_angular_core__WEBPACK_IMPORTED_MODULE_4__.Component)({
+  selector: 'app-privacy-policy',
+  template: _privacy_policy_component_html_ngResource__WEBPACK_IMPORTED_MODULE_2__,
+  styles: [_privacy_policy_component_scss_ngResource__WEBPACK_IMPORTED_MODULE_3__]
+})], PrivacyPolicyComponent);
 
 
 /***/ }),
@@ -1153,7 +1219,10 @@ __webpack_require__.r(__webpack_exports__);
 // `ng build --env=prod` then `environment.prod.ts` will be used instead.
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 var environment = {
-  production: false
+  production: false,
+  emailjs_email_service: 'service_604an3s',
+  emailjs_email_template: 'template_1awxbdn',
+  emailjs_user_public_key: 'jyVm1-SRAXu_Uczxp'
 };
 
 /***/ }),
@@ -1252,6 +1321,16 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /***/ (function(module) {
 
 module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwYWdlLW5vdC1mb3VuZC5jb21wb25lbnQuc2NzcyJ9 */";
+
+/***/ }),
+
+/***/ 2670:
+/*!**********************************************************************************!*\
+  !*** ./src/app/sections/privacy-policy/privacy-policy.component.scss?ngResource ***!
+  \**********************************************************************************/
+/***/ (function(module) {
+
+module.exports = "div {\n  text-align: left;\n  color: #000;\n  margin: 48px;\n  margin-top: 96px;\n}\n\np {\n  color: #000;\n  text-align: left;\n}\n\nstrong {\n  text-align: center;\n  font-weight: 900;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByaXZhY3ktcG9saWN5LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksZ0JBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGdCQUFBO0FBQ0o7O0FBRUE7RUFDSSxXQUFBO0VBQ0EsZ0JBQUE7QUFDSjs7QUFFQTtFQUNJLGtCQUFBO0VBQ0EsZ0JBQUE7QUFDSiIsImZpbGUiOiJwcml2YWN5LXBvbGljeS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImRpdntcbiAgICB0ZXh0LWFsaWduOiBsZWZ0O1xuICAgIGNvbG9yOiAjMDAwO1xuICAgIG1hcmdpbjogNDhweDtcbiAgICBtYXJnaW4tdG9wOiA5NnB4O1xufVxuXG5we1xuICAgIGNvbG9yOiAjMDAwO1xuICAgIHRleHQtYWxpZ246IGxlZnQ7XG59XG5cbnN0cm9uZ3tcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgZm9udC13ZWlnaHQ6IDkwMDtcbn0iXX0= */";
 
 /***/ }),
 
@@ -1365,6 +1444,16 @@ module.exports = "<h2>Page Not Found</h2>\n<p>We couldn't find that page! Not ev
 
 /***/ }),
 
+/***/ 5978:
+/*!**********************************************************************************!*\
+  !*** ./src/app/sections/privacy-policy/privacy-policy.component.html?ngResource ***!
+  \**********************************************************************************/
+/***/ (function(module) {
+
+module.exports = "<div style=\"color: black; text-align: left;\">\n\n    <p><strong>Aviso de Privacidad</strong></p>\n    <p><br></p>\n    <p>Para Qbitss S.A. DE C.V., (en lo sucesivo “Qbitss”) empresa de nacionalidad mexicana constituida conforme a las\n        leyes de los Estados Unidos Mexicanos, el tratamiento legítimo, controlado e informado de sus datos personales\n        es de vital importancia para alcanzar los objetivos como empresa a través de todas las áreas de la misma,\n        reiterando nuestro compromiso y respeto con el derecho a la privacidad y a la autodeterminación informativa de\n        las personas, atendiendo a los principios de licitud, consentimiento, calidad, información, finalidad, lealtad,\n        proporcionalidad y responsabilidad.</p>\n    <p>El presente Aviso de Privacidad tiene como objeto informarle sobre el tratamiento que se le dará a sus datos\n        personales cuando los mismos sean recabados, utilizados, almacenados, transmitidos y/o transferidos por Qbitss.\n        Lo anterior, en cumplimiento con lo establecido en la Ley Federal de Protección de Datos Personales en Posesión\n        de los Particulares y su Reglamento respectivo (en adelante la “Ley”).</p>\n    <p><br></p>\n    <p><strong>Responsable del tratamiento de sus Datos Personales</strong></p>\n    <p>Qbitss S.A. DE C.V., con domicilio en Av. Nuevo León 254 piso 2 Col. Hipódromo Condesa Del. Cuauhtémoc, CDMX. ,\n        es el responsable de los datos personales que recabe por sí misma y, por ende, quién decidirá sobre el\n        tratamiento que se le dé a sus datos personales.</p>\n    <p><br></p>\n    <p><strong>Datos Personales que se recaban</strong></p>\n    <p>Qbitss podrá recabar y, en su caso, tratar los datos personales que a continuación se especifican, con base en la\n        relación que con Usted exista: nombre completo, fecha de nacimiento, domicilio, teléfono, correo electrónico,\n        empresa que representa y datos fiscales para efectos de facturación como la Clave del Registro Federal de\n        Contribuyentes (RFC). Así mismo, en el caso de que opte por pagar los servicios y/o productos que le ofrece\n        Qbitss a través de cargos recurrentes o pagos domiciliados, se recopilará la información referente a su cuenta\n        bancaria, tarjeta de crédito o tarjeta de débito. Cabe mencionar que todos los datos personales antes reseñados\n        son indispensables para que Qbitss pueda brindarles los servicios y/o productos contratados</p>\n    <p>Podrán tratarse otros datos personales, sensibles y no sensibles, que no se incluyan en las listas anteriores\n        siempre y cuando dichos datos se consideren de la misma naturaleza y no sean excesivos respecto a las\n        finalidades para los cuales se recaban.</p>\n    <p><br></p>\n    <p><strong>Finalidades y/o Usos de los Datos Personales.</strong></p>\n    <p>Qbitss recaba, utiliza, almacena, transmite o transfiere sus datos personales, en la medida en que la Ley lo\n        permite, para cumplir con las obligaciones derivadas de la relación que con Usted exista o se vaya a crear, en\n        virtud de la prestación de nuestros servicios y/o productos, por lo que sus datos personales también serán\n        utilizados para las siguientes finalidades:</p>\n    <ul>\n        <li>Verificar y confirmar su identidad</li>\n        <li>Proveer los servicios y/o productos que haya solicitado de Qbitss.</li>\n        <li>Remitirle promociones publicitarias con fines informativos y/o de prospección comercial de nuestros\n            servicios y/o productos.</li>\n        <li>Comunicar sobre estados de cuenta, facturaciones, cambios, modificaciones en los servicios y/o productos de\n            Qbitss.</li>\n        <li>Para enviarle información relativa al estado que guarden los servicios prestados y/o productos ofrecidos por\n            Qbitss y dar respuesta a sus duda o comentarios.</li>\n        <li>Evaluar la calidad de nuestros servicios al realizar encuestas; conocer el mercado y el desempeño de la\n            empresa dentro de este; dar seguimiento a las ventas a fin de alcanzar la satisfacción del Cliente.</li>\n        <li>Log Files</li>\n    </ul>\n    <p><br></p>\n    <p><strong>Transmisión y Transferencia de sus Datos Personales</strong></p>\n    <p>Qbitss podrá contratar a uno o varios terceros como proveedores de servicios seleccionados para apoyar las\n        actividades de promoción de nuestros servicios y/o productos, manejo y administración de los datos personales\n        que se recaban a través de este sitio de internet, o por cualquier otro medio distinto, así como para fines de\n        verificación de la información que usted nos proporciona, por lo que Qbitss podría incluso transferirlos a\n        dicho(s) tercero(s) para cumplir con la prestación de los servicios contratados. De igual manera, Qbitss podrá\n        sin fines comerciales, compartir o transmitir sus datos personales con sus empresas subsidiarias o filiales para\n        los mismos fines establecidos. En ningún caso comercializaremos, venderemos o rentaremos información personal\n        sobre usted a un tercero sin un consentimiento previo de su parte.</p>\n    <p>Asimismo, en caso de que Usted proporcione a Qbitss datos personales de terceras personas, deberá manifestar a\n        Qbitss que Usted se encuentra autorizado para proporcionar dichos datos, por lo que se obliga a sacar en paz y a\n        salvo a Qbitss de cualquier reclamación que pudiera surgir al respecto.</p>\n    <p>Se entiende que ha otorgado su consentimiento a la transferencia de sus datos personales, si no manifiesta\n        oposición a que los mismos sean transferidos.</p>\n    <p><br></p>\n    <p><strong>Seguridad de los datos personales</strong></p>\n    <p>Se establecen y mantienen para su tratamiento las medidas de seguridad, técnicas, administrativas y físicas,\n        necesarias para procurar la integridad de sus datos personales y evitar su daño, pérdida, alteración,\n        destrucción o el uso, acceso o tratamiento no autorizado. Estas medidas no son menores a las utilizadas en la\n        información propia de Qbitss.</p>\n    <p>Únicamente el personal autorizado de Qbitss que ha cumplido y observado los correspondientes requisitos de\n        confidencialidad, podrá participar en el tratamiento de sus datos personales. El personal autorizado tiene\n        prohibido permitir el acceso de personas no autorizadas y utilizar sus datos personales para fines distintos a\n        los establecidos en el presente Aviso de Privacidad. La obligación de confidencialidad de las personas que\n        participan en el tratamiento de sus datos personales subsiste aun después de terminada la relación con Qbitss.\n    </p>\n    <p><br></p>\n    <p><strong>Derechos que le corresponden resppecto a sus datos personales</strong></p>\n    <p>Usted podrá ejercitar ante Qbitss los derechos de acceso, rectificación, cancelación y oposición (derechos\n        “ARCO”), establecidos en la Ley. Asimismo, podrá revocar, en todo momento, el consentimiento que haya otorgado y\n        que fuese necesario para el tratamiento de sus datos personales. Lo anterior a través del envío de su petición\n        por escrito en el domicilio de Qbitss ubicado en en Av. Nuevo León 254 piso 2 Col. Hipódromo Condesa Del.\n        Cuauhtémoc, CDMX donde recibiremos la solicitud con la siguiente información:</p>\n    <p>*Nombre, domicilio y correo electrónico, así como cualquier información complementaria que sirva para\n        contactarle.\n\n        *Los documentos que acrediten su identidad o, en su caso, la representación legal del titular.\n\n        *Descripción clara y precisa que describa los derechos que se deseen ejercer, así como los datos personales\n        involucrados.\n\n        *En el caso de solicitar rectificación de datos personales, deberá acompañar la documentación que sustente la\n        petición.\n\n        *Señalar claramente datos del contacto del titular, siendo importante señalar que en el supuesto de que sea\n        necesario el envío físico de los documentos, los gastos generados correspondientes serán a cargo del titular\n        solicitante.</p>\n    <p>La respuesta a la solicitud correspondiente para el ejercicio de los derechos ARCO, se hará llegar dentro del\n        plazo de veinte días hábiles, contados a partir de la fecha en que se recibió la solicitud, de conformidad con\n        lo establecido en el artículo 32 de la Ley, siempre y cuando no se encuentren bajo los supuestos de excepción a\n        que se refieren los artículos 26 de la Ley y 75 de su reglamento.</p>\n    <p><br></p>\n    <p><strong>Cambios al Aviso de Privacidad</strong></p>\n    <p>Qbitss se reserva el derecho de cambiar el contenido del presente aviso de privacidad en cualquier momento. En\n        caso de que exista algún cambio en este Aviso de Privacidad, se le comunicará a través de nuestro portal de\n        internet www.qbitss.com</p>\n    <p>Le informamos que, ante la negativa de respuesta a la solicitud de derechos ARCO o inconformidad con la misma,\n        usted puede presentar ante el Instituto Federal de Acceso a la Información y Protección de Datos, la\n        correspondiente solicitud de Protección de Derechos en los plazos y términos fijados por la Ley y su Reglamento.\n    </p>\n</div>";
+
+/***/ }),
+
 /***/ 1324:
 /*!**********************************************************************!*\
   !*** ./src/app/sections/security/security.component.html?ngResource ***!
@@ -1391,7 +1480,7 @@ module.exports = "<div class=\"page-header\" data-parallax=\"true\" style=\"back
   \****************************************************************/
 /***/ (function(module) {
 
-module.exports = "<div class=\"section\" style=\"background-image: url(assets/img/waveshape-top-blue.svg); background-size: cover;\"></div>\n<footer class=\"footer\">\n    <div class=\"container\">\n\n        <div class=\"row\"> \n            <div class=\"col-md-6\">\n                <nav class=\"footer-nav\">\n                    <ul>\n                        <!--<li><a href=\"#\">ENGLISH</a></li>--><!--Cuando deba traducir la página rootear todo lo nuevo y enlazar desde aquí--> \n                        <li><a href=\"#\">Únete al Equipo</a></li>\n                        <app-modal-component></app-modal-component>\n                        <!--<li><a href=\"#\">Aviso de Privacidad</a></li>-->\n                        \n                        <li></li>\n                        <li></li>\n                    </ul>\n                </nav>\n            </div>\n            <div class=\"col-md-6\">\n                <nav class=\"footer-nav ml-auto\">\n                    <!--Descomentar esta lista para agregar las redes sociales-->\n                    <!--<ul>\n                       \n                        <li class=\"nav-item\" >\n                            <a class=\"nav-link\" rel=\"tooltip\" title=\"Siguenos en Twitter\" data-placement=\"bottom\" href=\"https://twitter.com/\" target=\"_blank\">\n                                <i class=\"fa fa-twitter\"></i>\n                                <p class=\"d-lg-none\">Twitter</p>\n                            </a>\n                        </li>\n                        <li class=\"nav-item\" >\n                            <a class=\"nav-link\" rel=\"tooltip\" title=\"Like en Facebook\" data-placement=\"bottom\" href=\"https://www.facebook.com/\" target=\"_blank\">\n                                <i class=\"fa fa-facebook-square\"></i>\n                                <p class=\"d-lg-none\">Facebook</p>\n                            </a>\n                        </li>\n                        <li class=\"nav-item\" >\n                            <a class=\"nav-link\" rel=\"tooltip\" title=\"Buscanos en LinkedIn\" data-placement=\"bottom\" href=\"https://mx.linkedin.com/\" target=\"_blank\">\n                                <i class=\"fa fa-linkedin\"></i>\n                                <p class=\"d-lg-none\">LinkedIn</p>\n                            </a>\n                        </li>\n                    </ul>-->\n                </nav>  \n            </div>          \n                     \n        </div>\n        <div class=\"row\">\n            <div class=\"credits\">\n                <span class=\"copyright\">\n                    copyright© {{test | date: 'yyyy'}}, Qbitss Solutions | Todos los derechos reservados\n                </span>\n            </div>\n        </div>\n       \n    </div>\n</footer>\n";
+module.exports = "<div class=\"section\" style=\"background-image: url(assets/img/waveshape-top-blue.svg); background-size: cover;\"></div>\n<footer class=\"footer\">\n    <div class=\"container\">\n\n        <div class=\"row\"> \n            <div class=\"col-md-6\">\n                <nav class=\"footer-nav\">\n                    <ul>\n                        <!--<li><a href=\"#\">ENGLISH</a></li>--><!--Cuando deba traducir la página rootear todo lo nuevo y enlazar desde aquí--> \n                        <li><a href=\"#\">Únete al Equipo</a></li>\n                        <!-- <app-modal-component></app-modal-component> -->\n                        <li><a href=\"#/privacy\">Aviso de Privacidad</a></li>\n                        \n                        <li></li>\n                        <li></li>\n                    </ul>\n                </nav>\n            </div>\n            <div class=\"col-md-6\">\n                <nav class=\"footer-nav ml-auto\">\n                    <!--Descomentar esta lista para agregar las redes sociales-->\n                    <!--<ul>\n                       \n                        <li class=\"nav-item\" >\n                            <a class=\"nav-link\" rel=\"tooltip\" title=\"Siguenos en Twitter\" data-placement=\"bottom\" href=\"https://twitter.com/\" target=\"_blank\">\n                                <i class=\"fa fa-twitter\"></i>\n                                <p class=\"d-lg-none\">Twitter</p>\n                            </a>\n                        </li>\n                        <li class=\"nav-item\" >\n                            <a class=\"nav-link\" rel=\"tooltip\" title=\"Like en Facebook\" data-placement=\"bottom\" href=\"https://www.facebook.com/\" target=\"_blank\">\n                                <i class=\"fa fa-facebook-square\"></i>\n                                <p class=\"d-lg-none\">Facebook</p>\n                            </a>\n                        </li>\n                        <li class=\"nav-item\" >\n                            <a class=\"nav-link\" rel=\"tooltip\" title=\"Buscanos en LinkedIn\" data-placement=\"bottom\" href=\"https://mx.linkedin.com/\" target=\"_blank\">\n                                <i class=\"fa fa-linkedin\"></i>\n                                <p class=\"d-lg-none\">LinkedIn</p>\n                            </a>\n                        </li>\n                    </ul>-->\n                </nav>  \n            </div>          \n                     \n        </div>\n        <div class=\"row\">\n            <div class=\"credits\">\n                <span class=\"copyright\">\n                    copyright© {{test | date: 'yyyy'}}, Qbitss Solutions | Todos los derechos reservados\n                </span>\n            </div>\n        </div>\n       \n    </div>\n</footer>\n";
 
 /***/ }),
 
